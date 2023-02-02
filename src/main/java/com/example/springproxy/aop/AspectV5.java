@@ -7,6 +7,9 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+/*
+    target method 파라미터를 가져오논 예제 (args 사용)
+ */
 @Aspect
 //@Component
 @Slf4j

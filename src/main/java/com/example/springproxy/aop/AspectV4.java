@@ -8,6 +8,9 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+/*
+    target method 파라미터를 가져오논 예제 (joinPoint.getArgs() 사용)
+ */
 @Aspect
 //@Component
 @Slf4j

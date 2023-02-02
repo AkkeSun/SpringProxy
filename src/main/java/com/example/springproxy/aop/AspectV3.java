@@ -9,6 +9,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 /*
+    AOP 순서 부여 예제 - Order 를 사용한다
     order 는 class Level 로 실행되므로 두 개의 AOP 를 실행하려면 클래스를 분리해야한다. (내부클리스를 사용하면 간편)
  */
 @Slf4j

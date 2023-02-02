@@ -7,6 +7,9 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
+/*
+    AOP 실패시 반복 시도 예제
+ */
 @Slf4j
 @Aspect
 @Component
