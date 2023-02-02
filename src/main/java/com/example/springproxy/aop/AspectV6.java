@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Aspect
-@Component
+//@Component
 public class AspectV6 {
 
     // 어노테이션을 pointCut 으로 사용하는 경우 파라미터로 어노테이션을 주입받으면 풀 패키지명을 쓰지 않아도 된다
